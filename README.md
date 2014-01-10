@@ -4,6 +4,8 @@ ColorQuant
 Examples of palette generation and dithering:
 ---------------------------------------------
 
-filename_4_8_mmc.png = dithering pattern 4, levels 8 and modified median cut algorithm
-
-filename_0_1_op.png = no dithering, one pass algorithm
+- filename_mmc.png = modified median cut algorithm, no dithering
+- filename_dmmc.png =  modified median cut algorithm, with ordered dithering
+- filename_gimp.png = gimp version of modified median cut, no dithering
+- filename_gimp_fs.png = gimp version of modified median cut, with Floyd-Steinberg dithering
+- filname_adither = the "a dither" algorithm (joint palette creation and dithering) see Monarch
